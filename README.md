@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Grid Capture - Real-time Territory Game
 
 A real-time multiplayer grid capture game where users compete to claim tiles on a shared 30x30 grid. Built with modern web technologies focusing on clean architecture, concurrency safety, and real-time communication.
@@ -430,3 +431,6 @@ Contributions welcome! Please open an issue first to discuss proposed changes.
 
 Built with ❤️ using Next.js, Socket.io, and MongoDB
 
+=======
+# Grid-Capture-Game
+>>>>>>> 79ea5818719228ab5d9d7a598ac16d6b56226088
