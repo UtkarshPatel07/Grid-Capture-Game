@@ -10,7 +10,7 @@ class GridSocketHandler {
   constructor(io, gridService) {
     this.io = io;
     this.gridService = gridService;
-    this.rateLimiter = new RateLimiter(3000);
+    this.rateLimiter = new RateLimiter(0); // No cooldown - allows instant clicks
     this.connectedUsers = new Map();
     
     // Start periodic cleanup
